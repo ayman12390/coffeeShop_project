@@ -12,8 +12,7 @@ a{
     justify-content: space-between;
     align-items: center;
     height: 90px;
-    border: solid;
-    
+   
 }
 
 .left-section {
@@ -23,18 +22,14 @@ a{
     height: 40px;
     width: 500px;
     padding-left: 100px;
-    border:solid;
-    
-
 }
 
 .right-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 500px;
    
-    width: 540px;
-    border: solid;
     
 }
 .login-button {
@@ -50,6 +45,10 @@ a{
     color: white;
 
 }
+.singnup-link{
+  margin-left: 130px;
+  
+}
 .profile-icon{
     width: 40px;
     position: absolute;
@@ -58,7 +57,9 @@ a{
    
 }
 .grocery-store-icon {
-
-   
     width: 40px;
+    position: absolute;
+    right: 50px;
+
+    
 }
