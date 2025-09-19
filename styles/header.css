@@ -1,14 +1,9 @@
 
-a{
-    font-family: Arial;
-    color: white;
-    font-size: 18px;
-    
 
-}
 
 .flexbox-container{
     display: flex;
+    flex:1;
     justify-content: space-between;
     align-items: center;
     height: 90px;
@@ -17,6 +12,7 @@ a{
 
 .left-section {
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
     height: 40px;
@@ -26,6 +22,7 @@ a{
 
 .right-section {
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
     width: 500px;
@@ -51,6 +48,7 @@ a{
 }
 .profile-icon{
     width: 40px;
+  
     position: absolute;
     left: 20px;
     top: 10px;
@@ -60,6 +58,12 @@ a{
     width: 40px;
     position: absolute;
     right: 50px;
-
-    
+}
+.descreption{
+    display: inline-block;
+    border: solid;
+}
+.welcome-text{
+   
+    color: rgb(114, 29, 14);
 }
