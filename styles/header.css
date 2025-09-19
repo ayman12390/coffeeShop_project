@@ -83,3 +83,12 @@
      color: rgb(114, 29, 14);
 
 }
+.grid-view{
+    
+    display: grid;
+
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+    row-gap: 40px;
+    border: solid;
+}
