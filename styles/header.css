@@ -63,7 +63,7 @@
 .descreption-container {
     display: inline-block;
     width: 400px;
-    border: solid;
+ 
     padding-left: 100px;
 
 }
@@ -90,6 +90,35 @@
     color: white;
     font-weight: bold;
     line-height: 25px;
+}
+.bottem-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 100px;
+   
+
+}
+.icon {
+    width: 40px;
+    
+}
+.order-button {
+    background-color: unset;
+    color: white;
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    border-width: 1px;
+    border-color: white;
+    margin-right: 40px;
+  
+
 }
 .grid-view{
     display: grid;
