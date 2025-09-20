@@ -70,6 +70,7 @@
 
 .welcome-text{
     color: rgb(114, 29, 14);
+    font-weight: bold;
 }
 .Start-text{
     margin-top: 0;
@@ -81,7 +82,14 @@
 }
 .roasted-text{
      color: rgb(114, 29, 14);
+     font-weight: bold;
+     font-size: 20px;
 
+}
+.paragraph {
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
 }
 .grid-view{
     display: grid;
